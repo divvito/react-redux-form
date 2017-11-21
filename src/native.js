@@ -13,23 +13,19 @@ import {
 } from 'react-native';
 
 
-import actions from './actions';
-import actionTypes from './action-types';
-import Fieldset from './components/fieldset-component';
-import Form from './components/form-component';
-import Errors from './components/errors-component';
-import modeled from './enhancers/modeled-enhancer';
-import batched from './enhancers/batched-enhancer';
-
-import formReducer from './reducers/form-reducer';
-import initialFieldState from './constants/initial-field-state';
-import combineForms from './reducers/forms-reducer';
-
 import modelReducer from './reducers/model-reducer';
-
-import track from './utils/track';
-
+import formReducer from './reducers/form-reducer';
+import modeled from './enhancers/modeled-enhancer';
+import actions from './actions';
+import combineForms from './reducers/forms-reducer';
+import initialFieldState from './constants/initial-field-state';
+import actionTypes from './action-types';
+import Form from './components/form-component';
+import Fieldset from './components/fieldset-component';
+import Errors from './components/errors-component';
+import batched from './enhancers/batched-enhancer';
 import form from './form';
+import track from './utils/track';
 
 import omit from './utils/omit';
 import _get from './utils/get';
